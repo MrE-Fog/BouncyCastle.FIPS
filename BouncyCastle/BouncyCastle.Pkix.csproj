@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors>Andrian</Authors>
+    <Company />
+    <Product>BouncyCastle FIPS</Product>
+    <Version>1.0.1</Version>
+    <PackageId>BouncyCastle.FIPS.Pkix</PackageId>
+    <PackageLicenseUrl>http://www.bouncycastle.org/license.html</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Description>.NETStandard 2.0 port of BouncyCastle C# FIPS Library.</Description>
+    <PackageIconUrl>https://www.bouncycastle.org/favicon.ico</PackageIconUrl>
+    <Copyright>Copyright © 2013 Legion of the Bouncy Castle Inc.</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BouncyCastle.Core\BouncyCastle.Core.csproj" />
+  </ItemGroup>
+
+</Project>
